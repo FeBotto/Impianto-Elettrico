@@ -12,34 +12,46 @@ function conferma(){
 }
 
 function bagno(){
-    document.getElementById("bagno").style.display = "block";
-    setTimeout(togli, 1000);
+    if(document.getElementById("bagno").style.display == "none"){
+        document.getElementById("bagno").style.display = "block";        
+    }
+    else{
+        document.getElementById("bagno").style.display = "none";
+    }
 }
 
 function camera(){
-    document.getElementById("camera").style.display = "block";
-    setTimeout(togli, 1000);
+    if(document.getElementById("camera").style.display == "none"){
+        document.getElementById("camera").style.display = "block";        
+    }
+    else{
+        document.getElementById("camera").style.display = "none";
+    }
 }
 
 function soggiorno(){
-    document.getElementById("soggiorno").style.display = "block";
-    setTimeout(togli, 1000);
+    if(document.getElementById("soggiorno").style.display == "none"){
+        document.getElementById("soggiorno").style.display = "block";        
+    }
+    else{
+        document.getElementById("soggiorno").style.display = "none";
+    }
 }
 
 function cucina(){
-    document.getElementById("cucina").style.display = "block";
-    setTimeout(togli, 1000);
+    if(document.getElementById("cucina").style.display == "none"){
+        document.getElementById("cucina").style.display = "block";        
+    }
+    else{
+        document.getElementById("cucina").style.display = "none";
+    }
 }
 
 function terrazzo(){
-    document.getElementById("terrazzo").style.display = "block";
-    setTimeout(togli, 1000);
-}
-
-function togli(){
-    document.getElementById("bagno").style.display = "none";
-    document.getElementById("camera").style.display = "none";
-    document.getElementById("soggiorno").style.display = "none";
-    document.getElementById("cucina").style.display = "none";
-    document.getElementById("terrazzo").style.display = "none";
+    if(document.getElementById("terrazzo").style.display == "none"){
+        document.getElementById("terrazzo").style.display = "block";        
+    }
+    else{
+        document.getElementById("terrazzo").style.display = "none";
+    }
 }
